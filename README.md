@@ -10,19 +10,25 @@ In the latest version of the Blackarch Linux it has been added to
 
 `pacman -S wordlistctl`
 
-##Manual Installation (If pacman is not available)
+## Manual Installation (If pacman is not available)
+
 If you're using a system where pacman is not supported, you can manually clone and run the script:
 
-git clone https://github.com/BlackArch/wordlistctl.git
-cd wordlistctl
-chmod +x wordlistctl.py
+`git clone https://github.com/BlackArch/wordlistctl.git`
+
+`cd wordlistctl`
+
+`chmod +x wordlistctl.py`
 
 Then use it like this:
-./wordlistctl.py list -g passwords
-./wordlistctl.py fetch -g usernames -d
-./wordlistctl.py search admin
 
-Note-Make sure you have Python 3 installed.
+`./wordlistctl.py list -g passwords`
+
+`./wordlistctl.py fetch -g usernames -d`
+
+`./wordlistctl.py search admin`
+
+Note - Make sure you have Python 3 installed.
 
 ## Usage
 
